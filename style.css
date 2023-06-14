@@ -1,0 +1,190 @@
+body,html {
+    height: 100%;
+    margin: 0; /*no margin*/
+}
+.banner1 {
+    background-image: url("images/banner/banner4.png"); /*1st background image*/
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner1 h2 {
+    margin: 0;
+    text-align: right;
+    padding-top: 160px;
+    padding-right: 80px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'work-sans-bold', sans-serif;
+}
+.banner1 .text1 {
+    color:grey;
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 80px;
+    font-size: 20px;
+    font-family: 'work-sans-bold', sans-serif;
+}
+.banner1 .btn1 {
+    background-color: orangered;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 1330px;
+    /* margin-right:270px; */
+    padding: 15px 28px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.person {
+    background-image: url("images/banner/p.jpg"); /*2nd background image*/
+    height: 100%;
+    margin-left: 85px;
+    padding-left: 100px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.person h1{
+    font-weight: 900;
+    text-align: right;
+    padding-top: 200px;
+    padding-right: 360px;
+    font-size: 35px;
+    font-family: 'work-sans-bold', sans-serif;
+}
+.person p{
+    text-align: left;
+    color:grey;
+    padding-left: 750px;
+    font-size: 20px;
+    font-family: 'work-sans-bold', sans-serif;
+}
+.plans
+{
+    font-size: 15px;
+    font-family: 'work-sans', sans-serif;
+    margin: 0 200px;
+    text-align: center;
+    display: flex;
+    gap:140px;
+}
+.plans h2{
+    font-weight: 800;
+}
+
+.plans p{
+    color:grey;
+    font-size: 23px;
+}
+.watch
+{
+    background-image:url("images/gradient3.png"), url("images/banner/watch.png"); /*two images are blended*/
+    margin: 110px 200px 80px 200px;
+    height: 300px; 
+    background-position: top center,top center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1140px 300px;
+}
+.watch h1{
+    text-align: left center;
+    font-size: 35px;
+    font-weight: 1000;
+    color: white;
+    padding: 50px 70px 0;
+    font-family: 'work-sans-bold', sans-serif;
+}
+.btn2{
+    text-align: left center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: aliceblue;
+    color: orangered;
+    padding: 20px 35px;
+    margin-top:0;
+    margin-left: 70px; 
+    font-family: 'work-sans-bold', sans-serif;
+    border: none;
+    border-radius: 6px;
+}
+.footer{
+    display:flex;
+    text-align: top center ;
+    padding: 20px 50px 100px 0px;
+    background-color: rgba(0, 0, 0, 0.95);
+    color:azure;
+}
+.footer h1{
+    font-family: 'work-sans-bold', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: top ;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.footer p{
+    font-family: 'work-sans-bold', sans-serif;
+    font-size: 18px;
+    padding-left: 200px;
+    padding-top: 0;
+    text-align: top ;
+    font-weight: 100;
+    color: rgba(240, 248, 255, 0.794);
+}
+.footer span{
+    font-family: 'work-sans-bold', sans-serif;
+    font-size: 18px;
+    padding-left: 200px;
+    padding-top: 0;
+    padding-bottom:100px;
+    text-align: top ;
+    font-weight: 100; 
+    color: rgba(240, 248, 255, 0.794);
+}
+.footer .icons{
+    padding-left: 200px;
+    padding-top: 0; 
+    display: flex;
+    gap: 17px;   
+}
+.footer .Subscribe
+{ 
+    font-family: 'work-sans-bold', sans-serif;
+    margin-right: 150px;
+    padding-left: 420px;
+    padding-top: 120px;
+    font-size: 18px;
+}
+.footer .Subscribe .email
+{
+    font-family: 'work-sans-bold', sans-serif;
+    background-color:rgba(0, 0, 0, 0);
+    border-color: rgba(240, 248, 255, 0.794);
+    border-radius: 8px;
+    color: white;
+    padding: 18px 25px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer .Subscribe .sub-btn
+{
+    padding: 17px 30px;
+    color: rgba(255, 69, 0, 0.87);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.positivity /* Additional Part*/
+{
+    color: rgba(0, 0, 0, 0.807);
+    font-family: 'work-sans-bold', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
